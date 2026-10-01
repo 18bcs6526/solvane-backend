@@ -4,4 +4,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/solvane_db
+      uri: ${MONGO_URI}
